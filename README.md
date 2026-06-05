@@ -233,10 +233,10 @@ This creates:
 
 #### Summary: Why the Bin Method Failed
 
-❌ Treats bins as physical sinusoids (they are not)
-❌ Ignores phase evolution
-❌ Breaks harmonic relationships
-❌ Produces severe artifacts
+ Treats bins as physical sinusoids (they are not)
+ Ignores phase evolution
+ Breaks harmonic relationships
+ Produces severe artifacts
 
 This method is fast and simple but **fundamentally flawed for pitch shifting**.
 
@@ -266,10 +266,10 @@ This aligns much more closely with physical reality.
 
 #### Why This Method Works Better
 
-✔ One sinusoid = one tracked entity
-✔ Phase continuity is preserved
-✔ Harmonics remain locked
-✔ Frequency estimates are accurate
+ One sinusoid = one tracked entity
+ Phase continuity is preserved
+ Harmonics remain locked
+ Frequency estimates are accurate
 
 This is why sinusoidal modeling often produces **extremely clean pitch shifting** for simple signals.
 
@@ -346,12 +346,12 @@ All add significant computational cost, making **real-time implementation diffic
 
 #### Summary: Strengths and Weaknesses of the Sinusoidal Model
 
-✔ Excellent quality for monophonic, harmonic sounds
-✔ Physically meaningful model
+ Excellent quality for monophonic, harmonic sounds
+ Physically meaningful model
 
-❌ Fragile peak tracking
-❌ Complex implementation
-❌ Poor scalability to dense spectra
+ Fragile peak tracking
+ Complex implementation
+ Poor scalability to dense spectra
 
 ---
 
@@ -382,10 +382,10 @@ All add significant computational cost, making **real-time implementation diffic
 
 ### 7.4 Why Phase Vocoder Was Chosen
 
-✔ Works for polyphonic signals
-✔ Conceptually rigorous
-✔ Frequency-accurate
-✔ Scales to real-time systems
+ Works for polyphonic signals
+ Conceptually rigorous
+ Frequency-accurate
+ Scales to real-time systems
 
 ---
 
